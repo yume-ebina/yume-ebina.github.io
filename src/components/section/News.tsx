@@ -42,7 +42,7 @@ const News = () => {
   return (
     <>
       <section
-        className="bg-gray-100 text-gray-700 px-12 py-48 my-16"
+        className="bg-gray-100 text-gray-700 px-12 py-48 mt-16"
         id="news"
       >
         <div className="container mx-auto">
