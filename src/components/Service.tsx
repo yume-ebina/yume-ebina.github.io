@@ -1,9 +1,5 @@
-import { MdNavigateNext } from "react-icons/md";
 import BlackButton from "./BlackButton";
 import ViewMore from "./ViewMore";
-// import Image from "next/image";
-// import { basePath } from "../../next.config";
-// const BASE_PATH = basePath ? basePath : "";
 
 const Service = () => {
   return (
