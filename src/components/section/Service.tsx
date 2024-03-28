@@ -15,8 +15,10 @@ const Service = () => {
         <div className="flex items-center justify-center mb-24">
           <div>
             <Image
-              src="../../../public/image/dummy.png"
+              src="/image/dummy.png"
               alt="dummy image"
+              width={100}
+              height={100}
               className="dark:invert"
             />
           </div>
