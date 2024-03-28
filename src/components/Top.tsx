@@ -1,4 +1,4 @@
-import { MdNavigateNext } from "react-icons/md";
+import BlackButton from "./BlackButton";
 
 const Top = () => {
   return (
@@ -13,10 +13,10 @@ const Top = () => {
             <p className="w-5/12 mb-12">
               朝起きて、窓を開ける。暗くなった部屋にあかりを灯す。からだを休めて、ゆったりとした眠りにつく。わたしたちはテクノロジーで人に寄り添うまちづくりを実現するために日々さまざまな課題と向き合っています。
             </p>
-            <button className="rounded-lg bg-black text-white text-sm py-3 px-8 flex items-center">
-              わたしたちについて
-              <MdNavigateNext size={"20px"} />
-            </button>
+            <BlackButton
+              title="わたしたちについて"
+              href="https://preview.studio.site/live/4Ra4LEXoaD/"
+            />
           </div>
         </div>
       </section>

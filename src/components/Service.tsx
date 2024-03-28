@@ -1,22 +1,80 @@
 import { MdNavigateNext } from "react-icons/md";
+import BlackButton from "./BlackButton";
+import ViewMore from "./ViewMore";
+// import Image from "next/image";
+// import { basePath } from "../../next.config";
+// const BASE_PATH = basePath ? basePath : "";
 
 const Service = () => {
   return (
     <>
-      <section className="text-gray-700 px-12 my-16" id="home">
+      <section className="text-gray-700 px-12 py-4 my-16" id="service">
         <div className="container mx-auto">
-          <div className="mb-12">
-            <h1 className="text-9xl font-medium tracking-widest leading-tight my-16">
-              HELLO <br />
-              SMART CITY
-            </h1>
-            <p className="w-5/12 mb-12">
-              朝起きて、窓を開ける。暗くなった部屋にあかりを灯す。からだを休めて、ゆったりとした眠りにつく。わたしたちはテクノロジーで人に寄り添うまちづくりを実現するために日々さまざまな課題と向き合っています。
+          <div className="flex justify-between">
+            <div className="text-6xl mb-7 font-medium">SERVICE</div>
+            <ViewMore href="https://preview.studio.site/live/4Ra4LEXoaD/" />
+          </div>
+        </div>
+        <div className="flex items-center justify-center mb-24">
+          <div>
+            <img
+              src="../../public/image/dummy.png"
+              alt="dummy image"
+              className="dark:invert"
+            />
+          </div>
+          <div className="items-center w-2/5">
+            <h3 className="text-5xl mb-6 font-medium">SMART HOUSE</h3>
+            <p className="mb-6 font-bold">
+              目覚めの瞬間から、眠りにつくまで。快適な住まいをサポートするスマートハウスのご提案です。
             </p>
-            <button className="rounded-lg bg-black text-white text-sm py-3 px-8 flex items-center">
-              わたしたちについて
-              <MdNavigateNext size={"20px"} />
-            </button>
+            <BlackButton
+              title="サービスサイトへ"
+              href="https://preview.studio.site/live/4Ra4LEXoaD/"
+            />
+          </div>
+        </div>
+        <div className="flex items-center justify-center mb-24">
+          <div className="items-center w-2/5">
+            <h3 className="text-5xl mb-6 font-medium">SMART CITY</h3>
+            <p className="mb-6 font-bold">
+              街の魅力を再発見する。街と暮らす人にとってよりよい関係を築くためのサポートをします。
+            </p>
+            <BlackButton
+              title="サービスサイトへ"
+              href="https://preview.studio.site/live/4Ra4LEXoaD/"
+            />
+          </div>
+          <div>
+            <img
+              src="../../public/image/dummy.png"
+              alt="dummy image"
+              className="dark:invert"
+              width={100}
+              height={24}
+            />
+          </div>
+        </div>
+
+        <div className="flex items-center justify-center mb-24">
+          <div>
+            <img
+              src="../../public/image/dummy.png"
+              alt="dummy image"
+              className="dark:invert"
+              width={100}
+              height={24}
+            />
+          </div>
+          <div className="items-center w-2/5">
+            <h3 className="text-5xl mb-6 font-medium">SMART OFFICE</h3>
+            <p className="mb-6 font-bold">
+              ほっとする空間を、はたらく空間へ切り替える。ひとつの空間で住まいとオフィスの機能を実現します。
+            </p>
+            <BlackButton
+              title="サービスサイトへ"
+              href="https://preview.studio.site/live/4Ra4LEXoaD/"
+            />
           </div>
         </div>
       </section>
