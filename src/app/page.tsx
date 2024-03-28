@@ -1,9 +1,9 @@
 "use client";
-import Top from "../components/Top";
+import Top from "../components/section/Top";
 import Header from "@/components/Header";
-import About from "@/components/About";
-import Service from "@/components/Service";
-import News from "@/components/News";
+import About from "@/components/section/About";
+import Service from "@/components/section/Service";
+import News from "@/components/section/News";
 
 export default function Home() {
   return (

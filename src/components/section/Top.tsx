@@ -1,4 +1,4 @@
-import BlackButton from "./BlackButton";
+import BlackButton from "../button/BlackButton";
 
 const Top = () => {
   return (

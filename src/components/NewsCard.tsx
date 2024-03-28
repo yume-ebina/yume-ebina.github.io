@@ -15,12 +15,12 @@ const NewsCard = ({
 }) => {
   return (
     <Link href={href}>
-      <div className="bg-white rounded-lg p-5 mr-5">
+      <div className="h-72 bg-white rounded-lg p-5 mr-5 hover:bg-slate-200 duration-300">
         <div>
           <img src={image}></img>
         </div>
         <div>
-          <p className=" bg-blue-800 text-white text-xs rounded-full w-1/4 text-center py-1 px-1 mb-2">
+          <p className=" bg-blue-800 text-white text-xs rounded-full w-24 text-center py-1 mb-2">
             {tag}
           </p>
           <p className=" font-semibold mb-6">{title}</p>

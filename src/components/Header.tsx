@@ -13,16 +13,19 @@ const Header = () => {
             <a href="#home" className="mr-5 tracking-wide hover:text-gray-500">
               HOME
             </a>
-            <a href="#home" className="mr-5 tracking-wide hover:text-gray-500">
+            <a href="#" className="mr-5 tracking-wide hover:text-gray-500">
               CAMPANY
             </a>
-            <a href="#home" className="mr-5 tracking-wide hover:text-gray-500">
+            <a
+              href="#service"
+              className="mr-5 tracking-wide hover:text-gray-500"
+            >
               SERVICE
             </a>
-            <a href="#home" className="mr-5 tracking-wide hover:text-gray-500">
+            <a href="#news" className="mr-5 tracking-wide hover:text-gray-500">
               NEWS
             </a>
-            <a href="#home" className="mr-5 tracking-wide hover:text-gray-500">
+            <a href="#" className="mr-5 tracking-wide hover:text-gray-500">
               CONTACT
             </a>
           </nav>

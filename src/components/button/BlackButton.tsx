@@ -3,7 +3,7 @@ import { MdNavigateNext } from "react-icons/md";
 
 const BlackButton = ({ title, href }: { title: string; href: string }) => {
   return (
-    <div>
+    <div className="hover:opacity-70 duration-300">
       <Button
         href={href}
         variant="contained"

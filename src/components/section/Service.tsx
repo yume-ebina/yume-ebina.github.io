@@ -1,5 +1,5 @@
-import BlackButton from "./BlackButton";
-import ViewMore from "./ViewMore";
+import BlackButton from "../button/BlackButton";
+import ViewMore from "../button/ViewMore";
 
 const Service = () => {
   return (
