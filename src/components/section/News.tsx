@@ -45,12 +45,15 @@ const News = () => {
         className="bg-gray-100 text-gray-700 px-12 py-48 mt-16"
         id="news"
       >
-        <div className="container mx-auto">
-          <div className="flex justify-between">
+        <div className="container mx-auto flex flex-col">
+          <div className="flex md: justify-between">
             <div className="text-6xl mb-7 font-medium">NEWS</div>
             <ViewMore href="https://preview.studio.site/live/4Ra4LEXoaD/" />
           </div>
-          <div className="flex grid grid-cols-3 gap-4">{cards}</div>
+          {/* <div className="container flex flex-wrap grid grid-cols-3 gap-4 md:flex-row items-center"> */}
+          <div className="container flex mx-auto p-5 flex-col md:grid grid-cols-3 gap-4">
+            {cards}
+          </div>
         </div>
       </section>
     </>
@@ -58,3 +61,5 @@ const News = () => {
 };
 
 export default News;
+// flex grid grid-cols-3 gap-4
+//container flex mx-auto p-5 flex-col md:flex-row items-center

@@ -1,5 +1,6 @@
 import { Button } from "@mui/material";
 import Link from "next/link";
+import { IconContext } from "react-icons";
 import { MdNavigateNext } from "react-icons/md";
 
 const Footer = () => {
@@ -8,25 +9,29 @@ const Footer = () => {
       <footer className="text-white bg-black py-24">
         <div className="text-center mb-20">
           <Button>
-            <div className="w-96 bg-white rounded-lg text-black flex items-center p-12 justify-between">
+            <div className="bg-white rounded-lg text-black flex items-center p-12 justify-between md:w-96 hover:opacity-70 duration-300">
               <div>
                 <p className=" text-3xl font-semibold tracking-widest mb-6">
                   CONTACT
                 </p>
                 <p>お問い合わせはこちらから</p>
               </div>
-              <div>{<MdNavigateNext />}</div>
+              <IconContext.Provider value={{ size: "50px" }}>
+                <div>
+                  <MdNavigateNext />
+                </div>
+              </IconContext.Provider>
             </div>
           </Button>
         </div>
-        <div className="flex p-5 flex-col items-center md:flex-row">
+        <div className="container flex mx-auto p-5 flex-col md:flex-row items-center">
           <a
             href="#home"
             className="text-xl font-medium text-white ml-3 mb-5 md:mb-0"
           >
             SMART CAMPANY
           </a>
-          <nav className="md:ml-auto text-white">
+          <nav className="text-xs mx-5 text-white md:text-sm ml-auto">
             <a
               href="#home"
               className="mr-5 tracking-wide hover:text-gray-500 duration-300"
@@ -53,14 +58,14 @@ const Footer = () => {
             </a>
             <a
               href="#"
-              className="mr-5 tracking-wide hover:text-gray-500 duration-300"
+              className="tracking-wide hover:text-gray-500 duration-300"
             >
               CONTACT
             </a>
           </nav>
         </div>
         <div className="text-center">
-          <div className="flex pb-5  justify-center">
+          <div className="flex pb-5  justify-center text-xs md:text-sm">
             <div className="pr-10 hover:text-gray-500 duration-300">
               <Link href={"https://preview.studio.site/live/4Ra4LEXoaD/"}>
                 PRESS KIT
