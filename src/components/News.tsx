@@ -1,9 +1,5 @@
-import { MdNavigateNext } from "react-icons/md";
 import NewsCard from "./NewsCard";
 import ViewMore from "./ViewMore";
-// import Image from "next/image";
-// import { basePath } from "../../next.config";
-// const BASE_PATH = basePath ? basePath : "";
 
 const News = () => {
   return (
