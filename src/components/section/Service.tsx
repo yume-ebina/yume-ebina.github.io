@@ -1,3 +1,4 @@
+import Image from "next/image";
 import BlackButton from "../button/BlackButton";
 import ViewMore from "../button/ViewMore";
 
@@ -13,8 +14,8 @@ const Service = () => {
         </div>
         <div className="flex items-center justify-center mb-24">
           <div>
-            <img
-              src="../../public/image/dummy.png"
+            <Image
+              src="../../../public/image/dummy.png"
               alt="dummy image"
               className="dark:invert"
             />
