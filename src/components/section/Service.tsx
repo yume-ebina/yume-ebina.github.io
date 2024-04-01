@@ -13,7 +13,7 @@ const Service = () => {
           </div>
         </div>
         <div className="flex items-center justify-center mb-24">
-          <div>
+          <div className="mr-5">
             <Image
               src="/image/dummy.png"
               alt="dummy image"
@@ -44,7 +44,7 @@ const Service = () => {
               href="https://preview.studio.site/live/4Ra4LEXoaD/"
             />
           </div>
-          <div>
+          <div className="ml-5">
             <img
               src="/image/dummy.png"
               alt="dummy image"
@@ -56,7 +56,7 @@ const Service = () => {
         </div>
 
         <div className="flex items-center justify-center mb-24">
-          <div>
+          <div className="mr-5">
             <img
               src="/image/dummy.png"
               alt="dummy image"
