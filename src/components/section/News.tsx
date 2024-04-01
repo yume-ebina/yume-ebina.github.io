@@ -5,7 +5,7 @@ const News = () => {
   const newsCards = [
     {
       index: 1,
-      image: "../../public/image/dummy.png",
+      image: "/image/dummy.png",
       tag: "プレスリリース",
       title: "記事サンプルです",
       href: "https://preview.studio.site/live/4Ra4LEXoaD/",
@@ -13,7 +13,7 @@ const News = () => {
     },
     {
       index: 2,
-      image: "../../public/image/dummy.png",
+      image: "/image/dummy.png",
       tag: "インタビュー",
       title: "「街と家から暮らしを考える」SMART CITY導入事例を公開しました",
       href: "https://preview.studio.site/live/4Ra4LEXoaD/",
@@ -21,7 +21,7 @@ const News = () => {
     },
     {
       index: 3,
-      image: "../../public/image/dummy.png",
+      image: "/image/dummy.png",
       tag: "インタビュー",
       title: "「SMART HOME で暮らす人」インタビューを公開しました",
       href: "https://preview.studio.site/live/4Ra4LEXoaD/",
