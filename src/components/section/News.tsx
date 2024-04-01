@@ -50,7 +50,6 @@ const News = () => {
             <div className="text-6xl mb-7 font-medium">NEWS</div>
             <ViewMore href="https://preview.studio.site/live/4Ra4LEXoaD/" />
           </div>
-          {/* <div className="container flex flex-wrap grid grid-cols-3 gap-4 md:flex-row items-center"> */}
           <div className="container flex mx-auto p-5 flex-col md:grid grid-cols-3 gap-4">
             {cards}
           </div>
@@ -61,5 +60,3 @@ const News = () => {
 };
 
 export default News;
-// flex grid grid-cols-3 gap-4
-//container flex mx-auto p-5 flex-col md:flex-row items-center

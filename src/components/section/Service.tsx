@@ -17,8 +17,8 @@ const Service = () => {
             <Image
               src="/image/dummy.png"
               alt="dummy image"
-              width={100}
-              height={100}
+              width={300}
+              height={300}
               className="dark:invert"
             />
           </div>
@@ -46,11 +46,11 @@ const Service = () => {
           </div>
           <div>
             <img
-              src="../../public/image/dummy.png"
+              src="/image/dummy.png"
               alt="dummy image"
+              width={300}
+              height={300}
               className="dark:invert"
-              width={100}
-              height={24}
             />
           </div>
         </div>
@@ -58,11 +58,11 @@ const Service = () => {
         <div className="flex items-center justify-center mb-24">
           <div>
             <img
-              src="../../public/image/dummy.png"
+              src="/image/dummy.png"
               alt="dummy image"
+              width={300}
+              height={300}
               className="dark:invert"
-              width={100}
-              height={24}
             />
           </div>
           <div className="items-center w-2/5">
