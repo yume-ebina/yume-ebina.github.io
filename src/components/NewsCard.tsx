@@ -15,8 +15,8 @@ const NewsCard = ({
 }) => {
   return (
     <Link href={href}>
-      <div className="h-72 bg-white rounded-lg p-5 mb-5 hover:bg-slate-200 duration-300 md:mr-5">
-        <div>
+      <div className=" h-80 bg-white rounded-lg p-5 mb-5 hover:bg-slate-200 duration-300 md:mr-5">
+        <div className="mb-3 flex justify-center items-center">
           <img src={image} />
         </div>
         <div>
